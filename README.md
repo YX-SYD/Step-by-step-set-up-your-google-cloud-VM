@@ -5,7 +5,7 @@
     - Ubunto 16.10. 
     - 8 cores + 52 GB memory 
     - Standard persistent disk: 150G 
-    - (optional) set up your SSH key then you may visit your VM through your local ftp software (such as putty)
+    - (optional) set up your SSH key then you could visit your VM through your local ftp tools (such as putty)
 4. Setup swap area (optional): 
     - sudo fallocate -l 50G /swapfile          // Normally use memorysize*2, I set 50G 
     - sudo chmod 600 /swapfile                               //change the file permission 
